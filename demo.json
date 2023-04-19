@@ -1,0 +1,671 @@
+{
+    "_id": "641dac85624a52a20de50956",
+    "createdBy": {
+        "_id": "639b1a9e865e5bd2a838a38b",
+        "email": null,
+        "isEnabled": null,
+        "roles": null,
+        "credentials": null,
+        "details": null,
+        "preference": null,
+        "company": null,
+        "apiKey": null
+    },
+    "company": {
+        "_id": "640705613364e1166f931f8d",
+        "name": null,
+        "isEnabled": null,
+        "website": null,
+        "type": null,
+        "contact": null,
+        "createdAt": null,
+        "updatedAt": null
+    },
+    "updatedBy": {
+        "_id": "639b1a9e865e5bd2a838a38b",
+        "email": null,
+        "isEnabled": null,
+        "roles": null,
+        "credentials": null,
+        "details": null,
+        "preference": null,
+        "company": null,
+        "apiKey": null
+    },
+    "projects": [],
+    "tags": [
+        {
+            "_id": "641dabc2624a52a20de50833",
+            "createdBy": null,
+            "company": {
+                "_id": "640705613364e1166f931f8d",
+                "name": null,
+                "isEnabled": null,
+                "website": null,
+                "type": null,
+                "contact": null,
+                "createdAt": null,
+                "updatedAt": null
+            },
+            "name": "Heavy Usage",
+            "color": "info",
+            "description": null,
+            "createdAt": "2023-03-24T13:55:14.635000+00:00",
+            "updatedAt": "2023-03-24T13:55:14.635000+00:00"
+        }
+    ],
+    "panels": [
+        {
+            "_id": "641dac85624a52a20de50953",
+            "name": "Use Case",
+            "description": "",
+            "version": "v2",
+            "properties": {
+                "height": 2,
+                "width": 7,
+                "x": 0,
+                "y": 0
+            },
+            "company": {
+                "_id": "640705613364e1166f931f8d",
+                "name": null,
+                "isEnabled": null,
+                "website": null,
+                "type": null,
+                "contact": null,
+                "createdAt": null,
+                "updatedAt": null
+            },
+            "createdAt": "2023-03-24T13:58:29.168000+00:00",
+            "updatedAt": "2023-04-19T10:32:38.357000+00:00",
+            "template": {
+                "title": "Example",
+                "description": "No description provided",
+                "backgroundColor": "#FFFFFF",
+                "type": "textbox",
+                "dataSource": [],
+                "trace": [],
+                "layout": {
+                    "graph": {
+                        "chart": {
+                            "axisMode": ""
+                        },
+                        "font": {
+                            "family": "",
+                            "sizer": "12"
+                        },
+                        "autosize": true,
+                        "title": {
+                            "text": "",
+                            "font": {
+                                "family": "",
+                                "size": "12",
+                                "color": "#3A9619"
+                            },
+                            "x": "0.1"
+                        },
+                        "margin": {
+                            "t": "0",
+                            "b": "30",
+                            "l": "35",
+                            "r": "15",
+                            "pad": "4"
+                        },
+                        "barmode": "",
+                        "barnorm": "",
+                        "bargap": "",
+                        "bargroupgap": "",
+                        "showlegend": false,
+                        "legend": {
+                            "orientation": "v",
+                            "title": {
+                                "text": "",
+                                "font": {
+                                    "family": "",
+                                    "size": "12",
+                                    "color": "#464457"
+                                }
+                            },
+                            "font": {
+                                "family": "",
+                                "size": "12",
+                                "color": "#3F403F"
+                            },
+                            "borderwidth": "1",
+                            "bordercolor": "#444444",
+                            "bgcolor": "#FFFFFF",
+                            "xanchor": "auto",
+                            "x": "1",
+                            "yanchor": "auto",
+                            "y": "0.95",
+                            "valign": "top"
+                        },
+                        "other": {
+                            "alertAnnotations": "disable"
+                        }
+                    },
+                    "url": "",
+                    "markdownText": "As a **Fleet Operator** I want to understand the SoH of different fleets, do aging analysis, so that I can understand and benchmark aging of fleets with different driving + environment conditions which will help me plan replacements and understand any performance deterioration (e.g.range decline) "
+                },
+                "programOutput": {
+                    "program": "",
+                    "function": "",
+                    "fileName": "",
+                    "file": ""
+                }
+            }
+        },
+        {
+            "_id": "643d74f7f526971202b96e97",
+            "name": "Fleet Description",
+            "description": "",
+            "version": "v2",
+            "properties": {
+                "height": 5,
+                "width": 5,
+                "x": 7,
+                "y": 0
+            },
+            "company": {
+                "_id": "640705613364e1166f931f8d",
+                "name": null,
+                "isEnabled": null,
+                "website": null,
+                "type": null,
+                "contact": null,
+                "createdAt": null,
+                "updatedAt": null
+            },
+            "createdAt": "2023-04-17T16:33:59.192000+00:00",
+            "updatedAt": "2023-04-19T10:32:38.357000+00:00",
+            "template": {
+                "title": "Example",
+                "description": "No description provided",
+                "backgroundColor": "#FFFFFF",
+                "type": "textbox",
+                "dataSource": [],
+                "trace": [],
+                "layout": {
+                    "graph": {
+                        "chart": {
+                            "axisMode": ""
+                        },
+                        "font": {
+                            "family": "",
+                            "sizer": "12"
+                        },
+                        "autosize": true,
+                        "title": {
+                            "text": "",
+                            "font": {
+                                "family": "",
+                                "size": "12",
+                                "color": "#3A9619"
+                            },
+                            "x": "0.1"
+                        },
+                        "margin": {
+                            "t": "0",
+                            "b": "30",
+                            "l": "35",
+                            "r": "15",
+                            "pad": "4"
+                        },
+                        "barmode": "",
+                        "barnorm": "",
+                        "bargap": "",
+                        "bargroupgap": "",
+                        "showlegend": false,
+                        "legend": {
+                            "orientation": "v",
+                            "title": {
+                                "text": "",
+                                "font": {
+                                    "family": "",
+                                    "size": "12",
+                                    "color": "#464457"
+                                }
+                            },
+                            "font": {
+                                "family": "",
+                                "size": "12",
+                                "color": "#3F403F"
+                            },
+                            "borderwidth": "1",
+                            "bordercolor": "#444444",
+                            "bgcolor": "#FFFFFF",
+                            "xanchor": "auto",
+                            "x": "1",
+                            "yanchor": "auto",
+                            "y": "0.95",
+                            "valign": "top"
+                        },
+                        "other": {
+                            "alertAnnotations": "disable"
+                        }
+                    },
+                    "url": "",
+                    "markdownText": "Electric Vehicle Battery Aging is influenced by multiple factors like **temperature, mileage, geography**, along with this, it is also affected by the **usage behavior of the driver:** how they drive : driving profile , what intensity are the batteries charged and discharged etc.\n\nHere, we are trying to understand and access **Aging patterns** with different driving conditions\n- Fleet 2 operating at high temperature regions with aggressive driving conditions\n- Fleet 3 operating at average temperature with some driving conditions like high speeds + acceleration\n- Fleet 1 and 4 operating with an average driving condition/style and comparatively lower temperature\n\nThis dashboard is based on **Internal SoH Semi-Empirical Model**\n\n\n\n"
+                },
+                "programOutput": {
+                    "program": "",
+                    "function": "",
+                    "fileName": "",
+                    "file": ""
+                }
+            }
+        },
+        {
+            "_id": "643d76a9f526971202b97070",
+            "name": "Aging Benchmark",
+            "description": "",
+            "version": "v2",
+            "properties": {
+                "height": 6,
+                "width": 7,
+                "x": 0,
+                "y": 2
+            },
+            "company": {
+                "_id": "640705613364e1166f931f8d",
+                "name": null,
+                "isEnabled": null,
+                "website": null,
+                "type": null,
+                "contact": null,
+                "createdAt": null,
+                "updatedAt": null
+            },
+            "createdAt": "2023-04-17T16:41:13.455000+00:00",
+            "updatedAt": "2023-04-19T10:32:38.357000+00:00",
+            "template": {
+                "title": "Example",
+                "description": "No description provided",
+                "backgroundColor": "#FFFFFF",
+                "type": "iframe",
+                "dataSource": [],
+                "trace": [],
+                "layout": {
+                    "graph": {
+                        "chart": {
+                            "axisMode": ""
+                        },
+                        "font": {
+                            "family": "",
+                            "sizer": "12"
+                        },
+                        "autosize": true,
+                        "title": {
+                            "text": "",
+                            "font": {
+                                "family": "",
+                                "size": "12",
+                                "color": "#3A9619"
+                            },
+                            "x": "0.1"
+                        },
+                        "margin": {
+                            "t": "0",
+                            "b": "30",
+                            "l": "35",
+                            "r": "15",
+                            "pad": "4"
+                        },
+                        "barmode": "",
+                        "barnorm": "",
+                        "bargap": "",
+                        "bargroupgap": "",
+                        "showlegend": false,
+                        "legend": {
+                            "orientation": "v",
+                            "title": {
+                                "text": "",
+                                "font": {
+                                    "family": "",
+                                    "size": "12",
+                                    "color": "#464457"
+                                }
+                            },
+                            "font": {
+                                "family": "",
+                                "size": "12",
+                                "color": "#3F403F"
+                            },
+                            "borderwidth": "1",
+                            "bordercolor": "#444444",
+                            "bgcolor": "#FFFFFF",
+                            "xanchor": "auto",
+                            "x": "1",
+                            "yanchor": "auto",
+                            "y": "0.95",
+                            "valign": "top"
+                        },
+                        "other": {
+                            "alertAnnotations": "disable"
+                        }
+                    },
+                    "url": "<html>\r\n<head><meta charset=\"utf-8\" /></head>\r\n<body>\r\n    <div>\r\n        \r\n                <script type=\"text/javascript\">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>\r\n            \r\n            <div id=\"d115b6e4-000d-4fd7-b270-1cdd11d4d5f5\" class=\"plotly-graph-div\" style=\"height:400px; width:800px;\"></div>\r\n            <script type=\"text/javascript\">\r\n                \r\n                    window.PLOTLYENV=window.PLOTLYENV || {};\r\n                    \r\n                if (document.getElementById(\"d115b6e4-000d-4fd7-b270-1cdd11d4d5f5\")) {\r\n                    Plotly.newPlot(\r\n                        'd115b6e4-000d-4fd7-b270-1cdd11d4d5f5',\r\n                        [{\"line\":{\"dash\":\"solid\",\"color\":\"#0B6DD5\"},\"mode\":\"lines\",\"name\":\"Fleet-SoH\",\"type\":\"scatter\",\"x\":[0,76,152,228,304],\"y\":[100.0,95.88367384908027,93.9733457625915,92.46771978494405,91.17646173660013]},{\"line\":{\"dash\":\"dash\",\"color\":\"#0B6DD5\"},\"mode\":\"lines\",\"name\":\"Fleet-EoL Prediction\",\"type\":\"scatter\",\"x\":[304,380,456,532,608,684,760,836,912,988,1064,1140,1216,1292,1368,1444,1520,1596,1672,1748,1824,1900,1976,2052,2128,2204,2280,2356,2432],\"y\":[91.17646173660013,90.02430228747437,88.97209627928234,87.99633960022553,87.08158384092735,86.21701897323011,85.39472367201373,84.6086839941277,83.85420390623173,83.12753165991171,82.42561250970124,81.7459191141482,81.08633168722892,80.44505112389245,79.82053463121626,79.21144711491118,78.61662384286204,78.03504133964941,77.4657943940234,76.90807767740262,76.36117088945912,75.82442663600546,75.2972604479813,74.7791424959769,74.26959066044785,73.76816469554393,73.27446128238992,72.7881098112756,72.30876876541183]},{\"line\":{\"dash\":\"dash\",\"color\":\"#8B2D3E\"},\"mode\":\"lines\",\"name\":\"Fleet-SoH Expectation\",\"type\":\"scatter\",\"x\":[0,76,152,228,304],\"y\":[100.0,96.61742955940517,95.04762700239662,93.81038638057561,92.74930153322153]},{\"line\":{\"dash\":\"dash\",\"color\":\"#8B2D3E\"},\"mode\":\"lines\",\"name\":\"Fleet-SoH Expecation\",\"type\":\"scatter\",\"x\":[304,380,456,532,608,684,760,836,912,988,1064,1140,1216,1292,1368,1444,1520,1596,1672,1748,1824,1900,1976,2052,2128,2204,2280,2356,2432],\"y\":[92.74930153322153,91.80252026454241,90.93787523637053,90.136052062312,89.38435608917476,88.6739042303501,87.9981871765124,87.35226299993619,86.73227275869546,86.1351334722826,85.55833491887864,84.99980026827727,84.4577875969085,83.93081849918886,83.41762519274533,82.91711057051877,82.42831751971502,81.95040500452363,81.48262917212435,81.02432824778055,80.5749103282979,80.13384342073863,79.70064724057366,79.2748864031337,78.85616472909281,78.44412044862399,78.03842213645736,77.63876524591589,77.24486913728504]},{\"line\":{\"dash\":\"dash\",\"color\":\"#88ABFB\"},\"mode\":\"lines\",\"name\":\"Current State\",\"type\":\"scatter\",\"x\":[304,304,304,304,304,304],\"y\":[0,80,85,90,95,100]}],\r\n                        {\"height\": 415, \"paper_bgcolor\": \"rgba(0,0,0,0)\", \"plot_bgcolor\": \"rgba(0,0,0,0)\", \"template\": {\"data\": {\"bar\": [{\"error_x\": {\"color\": \"#2a3f5f\"}, \"error_y\": {\"color\": \"#2a3f5f\"}, \"marker\": {\"line\": {\"color\": \"#E5ECF6\", \"width\": 0.5}}, \"type\": \"bar\"}], \"barpolar\": [{\"marker\": {\"line\": {\"color\": \"#E5ECF6\", \"width\": 0.5}}, \"type\": \"barpolar\"}], \"carpet\": [{\"aaxis\": {\"endlinecolor\": \"#2a3f5f\", \"gridcolor\": \"white\", \"linecolor\": \"white\", \"minorgridcolor\": \"white\", \"startlinecolor\": \"#2a3f5f\"}, \"baxis\": {\"endlinecolor\": \"#2a3f5f\", \"gridcolor\": \"white\", \"linecolor\": \"white\", \"minorgridcolor\": \"white\", \"startlinecolor\": \"#2a3f5f\"}, \"type\": \"carpet\"}], \"choropleth\": [{\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}, \"type\": \"choropleth\"}], \"contour\": [{\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}, \"colorscale\": [[0.0, \"#0d0887\"], [0.1111111111111111, \"#46039f\"], [0.2222222222222222, \"#7201a8\"], [0.3333333333333333, \"#9c179e\"], [0.4444444444444444, \"#bd3786\"], [0.5555555555555556, \"#d8576b\"], [0.6666666666666666, \"#ed7953\"], [0.7777777777777778, \"#fb9f3a\"], [0.8888888888888888, \"#fdca26\"], [1.0, \"#f0f921\"]], \"type\": \"contour\"}], \"contourcarpet\": [{\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}, \"type\": \"contourcarpet\"}], \"heatmap\": [{\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}, \"colorscale\": [[0.0, \"#0d0887\"], [0.1111111111111111, \"#46039f\"], [0.2222222222222222, \"#7201a8\"], [0.3333333333333333, \"#9c179e\"], [0.4444444444444444, \"#bd3786\"], [0.5555555555555556, \"#d8576b\"], [0.6666666666666666, \"#ed7953\"], [0.7777777777777778, \"#fb9f3a\"], [0.8888888888888888, \"#fdca26\"], [1.0, \"#f0f921\"]], \"type\": \"heatmap\"}], \"heatmapgl\": [{\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}, \"colorscale\": [[0.0, \"#0d0887\"], [0.1111111111111111, \"#46039f\"], [0.2222222222222222, \"#7201a8\"], [0.3333333333333333, \"#9c179e\"], [0.4444444444444444, \"#bd3786\"], [0.5555555555555556, \"#d8576b\"], [0.6666666666666666, \"#ed7953\"], [0.7777777777777778, \"#fb9f3a\"], [0.8888888888888888, \"#fdca26\"], [1.0, \"#f0f921\"]], \"type\": \"heatmapgl\"}], \"histogram\": [{\"marker\": {\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}}, \"type\": \"histogram\"}], \"histogram2d\": [{\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}, \"colorscale\": [[0.0, \"#0d0887\"], [0.1111111111111111, \"#46039f\"], [0.2222222222222222, \"#7201a8\"], [0.3333333333333333, \"#9c179e\"], [0.4444444444444444, \"#bd3786\"], [0.5555555555555556, \"#d8576b\"], [0.6666666666666666, \"#ed7953\"], [0.7777777777777778, \"#fb9f3a\"], [0.8888888888888888, \"#fdca26\"], [1.0, \"#f0f921\"]], \"type\": \"histogram2d\"}], \"histogram2dcontour\": [{\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}, \"colorscale\": [[0.0, \"#0d0887\"], [0.1111111111111111, \"#46039f\"], [0.2222222222222222, \"#7201a8\"], [0.3333333333333333, \"#9c179e\"], [0.4444444444444444, \"#bd3786\"], [0.5555555555555556, \"#d8576b\"], [0.6666666666666666, \"#ed7953\"], [0.7777777777777778, \"#fb9f3a\"], [0.8888888888888888, \"#fdca26\"], [1.0, \"#f0f921\"]], \"type\": \"histogram2dcontour\"}], \"mesh3d\": [{\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}, \"type\": \"mesh3d\"}], \"parcoords\": [{\"line\": {\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}}, \"type\": \"parcoords\"}], \"pie\": [{\"automargin\": true, \"type\": \"pie\"}], \"scatter\": [{\"marker\": {\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}}, \"type\": \"scatter\"}], \"scatter3d\": [{\"line\": {\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}}, \"marker\": {\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}}, \"type\": \"scatter3d\"}], \"scattercarpet\": [{\"marker\": {\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}}, \"type\": \"scattercarpet\"}], \"scattergeo\": [{\"marker\": {\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}}, \"type\": \"scattergeo\"}], \"scattergl\": [{\"marker\": {\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}}, \"type\": \"scattergl\"}], \"scattermapbox\": [{\"marker\": {\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}}, \"type\": \"scattermapbox\"}], \"scatterpolar\": [{\"marker\": {\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}}, \"type\": \"scatterpolar\"}], \"scatterpolargl\": [{\"marker\": {\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}}, \"type\": \"scatterpolargl\"}], \"scatterternary\": [{\"marker\": {\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}}, \"type\": \"scatterternary\"}], \"surface\": [{\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}, \"colorscale\": [[0.0, \"#0d0887\"], [0.1111111111111111, \"#46039f\"], [0.2222222222222222, \"#7201a8\"], [0.3333333333333333, \"#9c179e\"], [0.4444444444444444, \"#bd3786\"], [0.5555555555555556, \"#d8576b\"], [0.6666666666666666, \"#ed7953\"], [0.7777777777777778, \"#fb9f3a\"], [0.8888888888888888, \"#fdca26\"], [1.0, \"#f0f921\"]], \"type\": \"surface\"}], \"table\": [{\"cells\": {\"fill\": {\"color\": \"#EBF0F8\"}, \"line\": {\"color\": \"white\"}}, \"header\": {\"fill\": {\"color\": \"#C8D4E3\"}, \"line\": {\"color\": \"white\"}}, \"type\": \"table\"}]}, \"layout\": {\"annotationdefaults\": {\"arrowcolor\": \"#2a3f5f\", \"arrowhead\": 0, \"arrowwidth\": 1}, \"coloraxis\": {\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}}, \"colorscale\": {\"diverging\": [[0, \"#8e0152\"], [0.1, \"#c51b7d\"], [0.2, \"#de77ae\"], [0.3, \"#f1b6da\"], [0.4, \"#fde0ef\"], [0.5, \"#f7f7f7\"], [0.6, \"#e6f5d0\"], [0.7, \"#b8e186\"], [0.8, \"#7fbc41\"], [0.9, \"#4d9221\"], [1, \"#276419\"]], \"sequential\": [[0.0, \"#0d0887\"], [0.1111111111111111, \"#46039f\"], [0.2222222222222222, \"#7201a8\"], [0.3333333333333333, \"#9c179e\"], [0.4444444444444444, \"#bd3786\"], [0.5555555555555556, \"#d8576b\"], [0.6666666666666666, \"#ed7953\"], [0.7777777777777778, \"#fb9f3a\"], [0.8888888888888888, \"#fdca26\"], [1.0, \"#f0f921\"]], \"sequentialminus\": [[0.0, \"#0d0887\"], [0.1111111111111111, \"#46039f\"], [0.2222222222222222, \"#7201a8\"], [0.3333333333333333, \"#9c179e\"], [0.4444444444444444, \"#bd3786\"], [0.5555555555555556, \"#d8576b\"], [0.6666666666666666, \"#ed7953\"], [0.7777777777777778, \"#fb9f3a\"], [0.8888888888888888, \"#fdca26\"], [1.0, \"#f0f921\"]]}, \"colorway\": [\"#636efa\", \"#EF553B\", \"#00cc96\", \"#ab63fa\", \"#FFA15A\", \"#19d3f3\", \"#FF6692\", \"#B6E880\", \"#FF97FF\", \"#FECB52\"], \"font\": {\"color\": \"#2a3f5f\"}, \"geo\": {\"bgcolor\": \"white\", \"lakecolor\": \"white\", \"landcolor\": \"#E5ECF6\", \"showlakes\": true, \"showland\": true, \"subunitcolor\": \"white\"}, \"hoverlabel\": {\"align\": \"left\"}, \"hovermode\": \"closest\", \"mapbox\": {\"style\": \"light\"}, \"paper_bgcolor\": \"white\", \"plot_bgcolor\": \"#E5ECF6\", \"polar\": {\"angularaxis\": {\"gridcolor\": \"white\", \"linecolor\": \"white\", \"ticks\": \"\"}, \"bgcolor\": \"#E5ECF6\", \"radialaxis\": {\"gridcolor\": \"white\", \"linecolor\": \"white\", \"ticks\": \"\"}}, \"scene\": {\"xaxis\": {\"backgroundcolor\": \"#E5ECF6\", \"gridcolor\": \"white\", \"gridwidth\": 2, \"linecolor\": \"white\", \"showbackground\": true, \"ticks\": \"\", \"zerolinecolor\": \"white\"}, \"yaxis\": {\"backgroundcolor\": \"#E5ECF6\", \"gridcolor\": \"white\", \"gridwidth\": 2, \"linecolor\": \"white\", \"showbackground\": true, \"ticks\": \"\", \"zerolinecolor\": \"white\"}, \"zaxis\": {\"backgroundcolor\": \"#E5ECF6\", \"gridcolor\": \"white\", \"gridwidth\": 2, \"linecolor\": \"white\", \"showbackground\": true, \"ticks\": \"\", \"zerolinecolor\": \"white\"}}, \"shapedefaults\": {\"line\": {\"color\": \"#2a3f5f\"}}, \"ternary\": {\"aaxis\": {\"gridcolor\": \"white\", \"linecolor\": \"white\", \"ticks\": \"\"}, \"baxis\": {\"gridcolor\": \"white\", \"linecolor\": \"white\", \"ticks\": \"\"}, \"bgcolor\": \"#E5ECF6\", \"caxis\": {\"gridcolor\": \"white\", \"linecolor\": \"white\", \"ticks\": \"\"}}, \"title\": {\"x\": 0.05}, \"xaxis\": {\"automargin\": true, \"gridcolor\": \"white\", \"linecolor\": \"white\", \"ticks\": \"\", \"title\": {\"standoff\": 15}, \"zerolinecolor\": \"white\", \"zerolinewidth\": 2}, \"yaxis\": {\"automargin\": true, \"gridcolor\": \"white\", \"linecolor\": \"white\", \"ticks\": \"\", \"title\": {\"standoff\": 15}, \"zerolinecolor\": \"white\", \"zerolinewidth\": 2}}}, \"title\": {\"text\": \"Battery Aging: Expected vs Reality\"}, \"width\": 890, \"xaxis\": {\"gridcolor\": \"rgb(159, 197, 232)\", \"range\": [0, 2000], \"showgrid\": true, \"title\": {\"text\": \"Equivalent Number of Cycles\"}}, \"yaxis\": {\"gridcolor\": \"rgb(159, 197, 232)\", \"range\": [78, 100], \"showgrid\": true, \"title\": {\"text\": \"Percentage Capacity Lost\"}}},\r\n                        {\"responsive\": true}\r\n                    )\r\n                };\r\n                \r\n            </script>\r\n        </div>\r\n</body>\r\n</html>",
+                    "markdownText": "[Global View of Assets](https://app.altergo.io/live-map)"
+                },
+                "programOutput": {
+                    "program": "",
+                    "function": "",
+                    "fileName": "",
+                    "file": ""
+                }
+            }
+        },
+        {
+            "_id": "643ed934f526971202b9caef",
+            "name": "SoH Simulation",
+            "description": "",
+            "version": "v2",
+            "properties": {
+                "height": 7,
+                "width": 5,
+                "x": 7,
+                "y": 8
+            },
+            "company": {
+                "_id": "640705613364e1166f931f8d",
+                "name": null,
+                "isEnabled": null,
+                "website": null,
+                "type": null,
+                "contact": null,
+                "createdAt": null,
+                "updatedAt": null
+            },
+            "createdAt": "2023-04-18T17:53:56.154000+00:00",
+            "updatedAt": "2023-04-19T10:32:38.357000+00:00",
+            "template": {
+                "title": "Example",
+                "description": "No description provided",
+                "backgroundColor": "#FFFFFF",
+                "type": "iframe",
+                "dataSource": [],
+                "trace": [],
+                "layout": {
+                    "graph": {
+                        "chart": {
+                            "axisMode": ""
+                        },
+                        "font": {
+                            "family": "",
+                            "sizer": "12"
+                        },
+                        "autosize": true,
+                        "title": {
+                            "text": "",
+                            "font": {
+                                "family": "",
+                                "size": "12",
+                                "color": "#3A9619"
+                            },
+                            "x": "0.1"
+                        },
+                        "margin": {
+                            "t": "0",
+                            "b": "30",
+                            "l": "35",
+                            "r": "15",
+                            "pad": "4"
+                        },
+                        "barmode": "",
+                        "barnorm": "",
+                        "bargap": "",
+                        "bargroupgap": "",
+                        "showlegend": false,
+                        "legend": {
+                            "orientation": "v",
+                            "title": {
+                                "text": "",
+                                "font": {
+                                    "family": "",
+                                    "size": "12",
+                                    "color": "#464457"
+                                }
+                            },
+                            "font": {
+                                "family": "",
+                                "size": "12",
+                                "color": "#3F403F"
+                            },
+                            "borderwidth": "1",
+                            "bordercolor": "#444444",
+                            "bgcolor": "#FFFFFF",
+                            "xanchor": "auto",
+                            "x": "1",
+                            "yanchor": "auto",
+                            "y": "0.95",
+                            "valign": "top"
+                        },
+                        "other": {
+                            "alertAnnotations": "disable"
+                        }
+                    },
+                    "url": "<html>\r\n<head><meta charset=\"utf-8\" /></head>\r\n<body>\r\n    <div>\r\n        \r\n                    \r\n            <div id=\"65902824-238b-4c05-8dce-26e6cb34a671\" class=\"plotly-graph-div\" style=\"height:600px; width:1200px;\"></div>\r\n            <script type=\"text/javascript\">\r\n                \r\n                    window.PLOTLYENV=window.PLOTLYENV || {};\r\n                    \r\n                if (document.getElementById(\"65902824-238b-4c05-8dce-26e6cb34a671\")) {\r\n                    Plotly.newPlot(\r\n                        '65902824-238b-4c05-8dce-26e6cb34a671',\r\n                        [{\"line\":{\"dash\":\"solid\",\"color\":\"#0B6DD5\"},\"mode\":\"lines\",\"name\":\"Fleet@T\",\"type\":\"scatter\",\"x\":[0,76,152,228,304],\"y\":[100.0,95.88367384908027,93.9733457625915,92.46771978494405,91.17646173660013]},{\"line\":{\"dash\":\"dash\",\"color\":\"#0B6DD5\"},\"mode\":\"lines\",\"name\":\"Fleet@T-Predict\",\"type\":\"scatter\",\"x\":[304,380,456,532,608,684,760,836,912,988,1064,1140,1216,1292,1368,1444,1520,1596,1672,1748,1824,1900,1976,2052,2128,2204,2280,2356,2432],\"y\":[91.17646173660013,90.02430228747437,88.97209627928234,87.99633960022553,87.08158384092735,86.21701897323011,85.39472367201373,84.6086839941277,83.85420390623173,83.12753165991171,82.42561250970124,81.7459191141482,81.08633168722892,80.44505112389245,79.82053463121626,79.21144711491118,78.61662384286204,78.03504133964941,77.4657943940234,76.90807767740262,76.36117088945912,75.82442663600546,75.2972604479813,74.7791424959769,74.26959066044785,73.76816469554393,73.27446128238992,72.7881098112756,72.30876876541183]},{\"line\":{\"dash\":\"dash\",\"color\":\"#5B5C71\"},\"mode\":\"lines\",\"name\":\"Fleet@T-2\",\"type\":\"scatter\",\"x\":[0,76,152,228,304,380,456,532,608,684,760,836,912,988,1064,1140,1216,1292,1368,1444,1520,1596,1672,1748,1824,1900,1976,2052,2128,2204,2280,2356,2432],\"y\":[100.0,96.19158273533697,94.42415075861449,93.03114841692285,91.83647888293821,90.77050311308459,89.79700408004871,88.8942358235052,88.04790550395978,87.24801170355633,86.48722562709247,85.7599831856007,85.06193961780774,84.38962381308991,83.74020952664861,83.11135846689398,82.50110941175707,81.90779783260591,81.3299963403108,80.76646970812965,80.21614032808546,79.67806128263229,79.15139507201279,78.63539660772803,78.12939946926026,77.63280468871673,77.14507151641472,76.66570975517416,76.19427334889329,75.73035498293395,75.27358150742626,74.8236100349587,74.38012459483599]},{\"line\":{\"dash\":\"dash\",\"color\":\"#82849B\"},\"mode\":\"lines\",\"name\":\"Fleet@T-5\",\"type\":\"scatter\",\"x\":[0,76,152,228,304,380,456,532,608,684,760,836,912,988,1064,1140,1216,1292,1368,1444,1520,1596,1672,1748,1824,1900,1976,2052,2128,2204,2280,2356,2432],\"y\":[100.0,96.61742955940517,95.04762700239662,93.81038638057561,92.74930153322153,91.80252026454241,90.93787523637053,90.136052062312,89.38435608917476,88.6739042303501,87.9981871765124,87.35226299993619,86.73227275869546,86.1351334722826,85.55833491887864,84.99980026827727,84.4577875969085,83.93081849918886,83.41762519274533,82.91711057051877,82.42831751971502,81.95040500452363,81.48262917212435,81.02432824778055,80.5749103282979,80.13384342073863,79.70064724057366,79.2748864031337,78.85616472909281,78.44412044862399,78.03842213645736,77.63876524591589,77.24486913728504]},{\"line\":{\"dash\":\"dash\",\"color\":\"#BBBDC9\"},\"mode\":\"lines\",\"name\":\"Fleet@T-7\",\"type\":\"scatter\",\"x\":[0,76,152,228,304,380,456,532,608,684,760,836,912,988,1064,1140,1216,1292,1368,1444,1520,1596,1672,1748,1824,1900,1976,2052,2128,2204,2280,2356,2432],\"y\":[100.0,96.87870270035388,95.43015327079442,94.28847835826154,93.3093527711062,92.43570183931246,91.63784286224686,90.89795331613516,90.20431909555836,89.54874325244657,88.92521926306955,88.32918691916693,87.757085347366,87.20606969967257,86.67382364632417,86.15843077356723,85.65828370575929,85.17201823085021,84.69846449125183,84.23661012155704,83.78557193732598,83.3445738651996,82.91292950829721,82.49002820802804,82.07532378039546,81.66832532413096,81.26858965236528,80.87571500997862,80.48933581893439,80.1091182528707,79.73475648613864,79.36596949555266,79.00249831829187]},{\"line\":{\"dash\":\"dash\",\"color\":\"#032A82\"},\"mode\":\"lines\",\"name\":\"Current State\",\"type\":\"scatter\",\"x\":[304,304,304,304,304,304],\"y\":[0,80,85,90,95,100]}],\r\n                        {\"height\": 490, \"paper_bgcolor\": \"rgba(0,0,0,0)\", \"plot_bgcolor\": \"rgba(0,0,0,0)\", \"template\": {\"data\": {\"bar\": [{\"error_x\": {\"color\": \"#2a3f5f\"}, \"error_y\": {\"color\": \"#2a3f5f\"}, \"marker\": {\"line\": {\"color\": \"#E5ECF6\", \"width\": 0.5}}, \"type\": \"bar\"}], \"barpolar\": [{\"marker\": {\"line\": {\"color\": \"#E5ECF6\", \"width\": 0.5}}, \"type\": \"barpolar\"}], \"carpet\": [{\"aaxis\": {\"endlinecolor\": \"#2a3f5f\", \"gridcolor\": \"white\", \"linecolor\": \"white\", \"minorgridcolor\": \"white\", \"startlinecolor\": \"#2a3f5f\"}, \"baxis\": {\"endlinecolor\": \"#2a3f5f\", \"gridcolor\": \"white\", \"linecolor\": \"white\", \"minorgridcolor\": \"white\", \"startlinecolor\": \"#2a3f5f\"}, \"type\": \"carpet\"}], \"choropleth\": [{\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}, \"type\": \"choropleth\"}], \"contour\": [{\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}, \"colorscale\": [[0.0, \"#0d0887\"], [0.1111111111111111, \"#46039f\"], [0.2222222222222222, \"#7201a8\"], [0.3333333333333333, \"#9c179e\"], [0.4444444444444444, \"#bd3786\"], [0.5555555555555556, \"#d8576b\"], [0.6666666666666666, \"#ed7953\"], [0.7777777777777778, \"#fb9f3a\"], [0.8888888888888888, \"#fdca26\"], [1.0, \"#f0f921\"]], \"type\": \"contour\"}], \"contourcarpet\": [{\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}, \"type\": \"contourcarpet\"}], \"heatmap\": [{\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}, \"colorscale\": [[0.0, \"#0d0887\"], [0.1111111111111111, \"#46039f\"], [0.2222222222222222, \"#7201a8\"], [0.3333333333333333, \"#9c179e\"], [0.4444444444444444, \"#bd3786\"], [0.5555555555555556, \"#d8576b\"], [0.6666666666666666, \"#ed7953\"], [0.7777777777777778, \"#fb9f3a\"], [0.8888888888888888, \"#fdca26\"], [1.0, \"#f0f921\"]], \"type\": \"heatmap\"}], \"heatmapgl\": [{\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}, \"colorscale\": [[0.0, \"#0d0887\"], [0.1111111111111111, \"#46039f\"], [0.2222222222222222, \"#7201a8\"], [0.3333333333333333, \"#9c179e\"], [0.4444444444444444, \"#bd3786\"], [0.5555555555555556, \"#d8576b\"], [0.6666666666666666, \"#ed7953\"], [0.7777777777777778, \"#fb9f3a\"], [0.8888888888888888, \"#fdca26\"], [1.0, \"#f0f921\"]], \"type\": \"heatmapgl\"}], \"histogram\": [{\"marker\": {\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}}, \"type\": \"histogram\"}], \"histogram2d\": [{\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}, \"colorscale\": [[0.0, \"#0d0887\"], [0.1111111111111111, \"#46039f\"], [0.2222222222222222, \"#7201a8\"], [0.3333333333333333, \"#9c179e\"], [0.4444444444444444, \"#bd3786\"], [0.5555555555555556, \"#d8576b\"], [0.6666666666666666, \"#ed7953\"], [0.7777777777777778, \"#fb9f3a\"], [0.8888888888888888, \"#fdca26\"], [1.0, \"#f0f921\"]], \"type\": \"histogram2d\"}], \"histogram2dcontour\": [{\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}, \"colorscale\": [[0.0, \"#0d0887\"], [0.1111111111111111, \"#46039f\"], [0.2222222222222222, \"#7201a8\"], [0.3333333333333333, \"#9c179e\"], [0.4444444444444444, \"#bd3786\"], [0.5555555555555556, \"#d8576b\"], [0.6666666666666666, \"#ed7953\"], [0.7777777777777778, \"#fb9f3a\"], [0.8888888888888888, \"#fdca26\"], [1.0, \"#f0f921\"]], \"type\": \"histogram2dcontour\"}], \"mesh3d\": [{\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}, \"type\": \"mesh3d\"}], \"parcoords\": [{\"line\": {\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}}, \"type\": \"parcoords\"}], \"pie\": [{\"automargin\": true, \"type\": \"pie\"}], \"scatter\": [{\"marker\": {\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}}, \"type\": \"scatter\"}], \"scatter3d\": [{\"line\": {\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}}, \"marker\": {\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}}, \"type\": \"scatter3d\"}], \"scattercarpet\": [{\"marker\": {\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}}, \"type\": \"scattercarpet\"}], \"scattergeo\": [{\"marker\": {\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}}, \"type\": \"scattergeo\"}], \"scattergl\": [{\"marker\": {\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}}, \"type\": \"scattergl\"}], \"scattermapbox\": [{\"marker\": {\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}}, \"type\": \"scattermapbox\"}], \"scatterpolar\": [{\"marker\": {\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}}, \"type\": \"scatterpolar\"}], \"scatterpolargl\": [{\"marker\": {\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}}, \"type\": \"scatterpolargl\"}], \"scatterternary\": [{\"marker\": {\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}}, \"type\": \"scatterternary\"}], \"surface\": [{\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}, \"colorscale\": [[0.0, \"#0d0887\"], [0.1111111111111111, \"#46039f\"], [0.2222222222222222, \"#7201a8\"], [0.3333333333333333, \"#9c179e\"], [0.4444444444444444, \"#bd3786\"], [0.5555555555555556, \"#d8576b\"], [0.6666666666666666, \"#ed7953\"], [0.7777777777777778, \"#fb9f3a\"], [0.8888888888888888, \"#fdca26\"], [1.0, \"#f0f921\"]], \"type\": \"surface\"}], \"table\": [{\"cells\": {\"fill\": {\"color\": \"#EBF0F8\"}, \"line\": {\"color\": \"white\"}}, \"header\": {\"fill\": {\"color\": \"#C8D4E3\"}, \"line\": {\"color\": \"white\"}}, \"type\": \"table\"}]}, \"layout\": {\"annotationdefaults\": {\"arrowcolor\": \"#2a3f5f\", \"arrowhead\": 0, \"arrowwidth\": 1}, \"coloraxis\": {\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}}, \"colorscale\": {\"diverging\": [[0, \"#8e0152\"], [0.1, \"#c51b7d\"], [0.2, \"#de77ae\"], [0.3, \"#f1b6da\"], [0.4, \"#fde0ef\"], [0.5, \"#f7f7f7\"], [0.6, \"#e6f5d0\"], [0.7, \"#b8e186\"], [0.8, \"#7fbc41\"], [0.9, \"#4d9221\"], [1, \"#276419\"]], \"sequential\": [[0.0, \"#0d0887\"], [0.1111111111111111, \"#46039f\"], [0.2222222222222222, \"#7201a8\"], [0.3333333333333333, \"#9c179e\"], [0.4444444444444444, \"#bd3786\"], [0.5555555555555556, \"#d8576b\"], [0.6666666666666666, \"#ed7953\"], [0.7777777777777778, \"#fb9f3a\"], [0.8888888888888888, \"#fdca26\"], [1.0, \"#f0f921\"]], \"sequentialminus\": [[0.0, \"#0d0887\"], [0.1111111111111111, \"#46039f\"], [0.2222222222222222, \"#7201a8\"], [0.3333333333333333, \"#9c179e\"], [0.4444444444444444, \"#bd3786\"], [0.5555555555555556, \"#d8576b\"], [0.6666666666666666, \"#ed7953\"], [0.7777777777777778, \"#fb9f3a\"], [0.8888888888888888, \"#fdca26\"], [1.0, \"#f0f921\"]]}, \"colorway\": [\"#636efa\", \"#EF553B\", \"#00cc96\", \"#ab63fa\", \"#FFA15A\", \"#19d3f3\", \"#FF6692\", \"#B6E880\", \"#FF97FF\", \"#FECB52\"], \"font\": {\"color\": \"#2a3f5f\"}, \"geo\": {\"bgcolor\": \"white\", \"lakecolor\": \"white\", \"landcolor\": \"#E5ECF6\", \"showlakes\": true, \"showland\": true, \"subunitcolor\": \"white\"}, \"hoverlabel\": {\"align\": \"left\"}, \"hovermode\": \"closest\", \"mapbox\": {\"style\": \"light\"}, \"paper_bgcolor\": \"white\", \"plot_bgcolor\": \"#E5ECF6\", \"polar\": {\"angularaxis\": {\"gridcolor\": \"white\", \"linecolor\": \"white\", \"ticks\": \"\"}, \"bgcolor\": \"#E5ECF6\", \"radialaxis\": {\"gridcolor\": \"white\", \"linecolor\": \"white\", \"ticks\": \"\"}}, \"scene\": {\"xaxis\": {\"backgroundcolor\": \"#E5ECF6\", \"gridcolor\": \"white\", \"gridwidth\": 2, \"linecolor\": \"white\", \"showbackground\": true, \"ticks\": \"\", \"zerolinecolor\": \"white\"}, \"yaxis\": {\"backgroundcolor\": \"#E5ECF6\", \"gridcolor\": \"white\", \"gridwidth\": 2, \"linecolor\": \"white\", \"showbackground\": true, \"ticks\": \"\", \"zerolinecolor\": \"white\"}, \"zaxis\": {\"backgroundcolor\": \"#E5ECF6\", \"gridcolor\": \"white\", \"gridwidth\": 2, \"linecolor\": \"white\", \"showbackground\": true, \"ticks\": \"\", \"zerolinecolor\": \"white\"}}, \"shapedefaults\": {\"line\": {\"color\": \"#2a3f5f\"}}, \"ternary\": {\"aaxis\": {\"gridcolor\": \"white\", \"linecolor\": \"white\", \"ticks\": \"\"}, \"baxis\": {\"gridcolor\": \"white\", \"linecolor\": \"white\", \"ticks\": \"\"}, \"bgcolor\": \"#E5ECF6\", \"caxis\": {\"gridcolor\": \"white\", \"linecolor\": \"white\", \"ticks\": \"\"}}, \"title\": {\"x\": 0.05}, \"xaxis\": {\"automargin\": true, \"gridcolor\": \"white\", \"linecolor\": \"white\", \"ticks\": \"\", \"title\": {\"standoff\": 15}, \"zerolinecolor\": \"white\", \"zerolinewidth\": 2}, \"yaxis\": {\"automargin\": true, \"gridcolor\": \"white\", \"linecolor\": \"white\", \"ticks\": \"\", \"title\": {\"standoff\": 15}, \"zerolinecolor\": \"white\", \"zerolinewidth\": 2}}}, \"title\": {\"text\": \"Aging: Temperature Simulation\"}, \"width\": 645, \"xaxis\": {\"gridcolor\": \"rgb(159, 197, 232)\", \"range\": [0, 2000], \"showgrid\": true, \"title\": {\"text\": \"Equivalent Number of Cycles\"}}, \"yaxis\": {\"gridcolor\": \"rgb(159, 197, 232)\", \"range\": [78, 100], \"showgrid\": true, \"title\": {\"text\": \"Percentage Capacity Lost\"}}},\r\n                        {\"responsive\": true}\r\n                    )\r\n                };\r\n                \r\n            </script>\r\n        </div>\r\n</body>\r\n</html>",
+                    "markdownText": "[Global View of Assets](https://app.altergo.io/live-map)"
+                },
+                "programOutput": {
+                    "program": "",
+                    "function": "",
+                    "fileName": "",
+                    "file": ""
+                }
+            }
+        },
+        {
+            "_id": "643f5539f526971202b9e51b",
+            "name": "SoH Prediction",
+            "description": "",
+            "version": "v2",
+            "properties": {
+                "height": 7,
+                "width": 7,
+                "x": 0,
+                "y": 8
+            },
+            "company": {
+                "_id": "640705613364e1166f931f8d",
+                "name": null,
+                "isEnabled": null,
+                "website": null,
+                "type": null,
+                "contact": null,
+                "createdAt": null,
+                "updatedAt": null
+            },
+            "createdAt": "2023-04-19T02:43:05.391000+00:00",
+            "updatedAt": "2023-04-19T10:32:38.357000+00:00",
+            "template": {
+                "title": "Example",
+                "description": "No description provided",
+                "backgroundColor": "#FFFFFF",
+                "type": "iframe",
+                "dataSource": [],
+                "trace": [],
+                "layout": {
+                    "graph": {
+                        "chart": {
+                            "axisMode": ""
+                        },
+                        "font": {
+                            "family": "",
+                            "sizer": "12"
+                        },
+                        "autosize": true,
+                        "title": {
+                            "text": "",
+                            "font": {
+                                "family": "",
+                                "size": "12",
+                                "color": "#3A9619"
+                            },
+                            "x": "0.1"
+                        },
+                        "margin": {
+                            "t": "0",
+                            "b": "30",
+                            "l": "35",
+                            "r": "15",
+                            "pad": "4"
+                        },
+                        "barmode": "",
+                        "barnorm": "",
+                        "bargap": "",
+                        "bargroupgap": "",
+                        "showlegend": false,
+                        "legend": {
+                            "orientation": "v",
+                            "title": {
+                                "text": "",
+                                "font": {
+                                    "family": "",
+                                    "size": "12",
+                                    "color": "#464457"
+                                }
+                            },
+                            "font": {
+                                "family": "",
+                                "size": "12",
+                                "color": "#3F403F"
+                            },
+                            "borderwidth": "1",
+                            "bordercolor": "#444444",
+                            "bgcolor": "#FFFFFF",
+                            "xanchor": "auto",
+                            "x": "1",
+                            "yanchor": "auto",
+                            "y": "0.95",
+                            "valign": "top"
+                        },
+                        "other": {
+                            "alertAnnotations": "disable"
+                        }
+                    },
+                    "url": "<html>\r\n<head><meta charset=\"utf-8\" /></head>\r\n<body>\r\n    <div>\r\n        \r\n                    \r\n            <div id=\"05871c8a-0695-4cfe-a987-dcdee96501c6\" class=\"plotly-graph-div\" style=\"height:600px; width:1200px;\"></div>\r\n            <script type=\"text/javascript\">\r\n                \r\n                    window.PLOTLYENV=window.PLOTLYENV || {};\r\n                    \r\n                if (document.getElementById(\"05871c8a-0695-4cfe-a987-dcdee96501c6\")) {\r\n                    Plotly.newPlot(\r\n                        '05871c8a-0695-4cfe-a987-dcdee96501c6',\r\n                        [{\"name\":\"Fleet-4\",\"line\":{\"dash\":\"solid\",\"color\":\"#51A0F6\"},\"mode\":\"lines\",\"type\":\"scatter\",\"x\":[0,76,152,228],\"y\":[100.0,96.99699258909871,95.6033398048807,94.50493170912993,93.56291269839234]},{\"name\":\"Fleet-3\",\"line\":{\"dash\":\"solid\",\"color\":\"#0B6DD5\"},\"mode\":\"lines\",\"type\":\"scatter\",\"x\":[0,76,152,228],\"y\":[100.0,95.88367384908027,93.9733457625915,92.46771978494405,91.17646173660013]},{\"name\":\"Fleet-2\",\"line\":{\"dash\":\"solid\",\"color\":\"074588\"},\"mode\":\"lines\",\"type\":\"scatter\",\"x\":[0,76,152,228],\"y\":[100.0,94.0972317725326,91.35784147168265,89.1987897208098,87.34713931659607]},{\"name\":\"Fleet-1\",\"line\":{\"dash\":\"solid\",\"color\":\"8BC0F9\"},\"mode\":\"lines\",\"type\":\"scatter\",\"x\":[0,76,152,228],\"y\":[100.0,97.55107881045346,96.41456951588675,95.51882918215038,94.75062251440241]},{\"line\":{\"dash\":\"dash\",\"color\":\"#51A0F6\"},\"mode\":\"lines\",\"name\":\"Fleet-4-EoL\",\"type\":\"scatter\",\"x\":[228,304,380,456,532,608,684,760,836,912,988,1064,1140,1216,1292,1368,1444,1520,1596,1672,1748,1824,1900,1976,2052,2128,2204,2280,2356,2432],\"y\":[94.50493170912993,93.56291269839234,92.72237109954659,91.95474911709277,91.24289965934527,90.575552558163,89.94482151069253,89.34492762644567,88.77148351842067,88.22106326204161,87.69092982241906,87.17885465328685,86.68299396850355,86.20180130821511,85.73396416082676,85.27835700362479,84.83400583749017,84.40006094861371,83.97577567500686,83.56048963263,83.1536153054289,82.75462720850669,82.36305304460817,81.97846642261287,81.60048081298314,81.22874449223745,80.86293628525455,80.50276195646443,80.1479511328049,79.7982546655421]},{\"line\":{\"dash\":\"dash\",\"color\":\"#0B6DD5\"},\"mode\":\"lines\",\"name\":\"Fleet-3-EoL\",\"type\":\"scatter\",\"x\":[228,304,380,456,532,608,684,760,836,912,988,1064,1140,1216,1292,1368,1444,1520,1596,1672,1748,1824,1900,1976,2052,2128,2204,2280,2356,2432],\"y\":[92.46771978494405,91.17646173660013,90.02430228747437,88.97209627928234,87.99633960022553,87.08158384092735,86.21701897323011,85.39472367201373,84.6086839941277,83.85420390623173,83.12753165991171,82.42561250970124,81.7459191141482,81.08633168722892,80.44505112389245,79.82053463121626,79.21144711491118,78.61662384286204,78.03504133964941,77.4657943940234,76.90807767740262,76.36117088945912,75.82442663600546,75.2972604479813,74.7791424959769,74.26959066044785,73.76816469554393,73.27446128238992,72.7881098112756,72.30876876541183]},{\"line\":{\"dash\":\"dash\",\"color\":\"074588\"},\"mode\":\"lines\",\"name\":\"Fleet-2-EoL\",\"type\":\"scatter\",\"x\":[228,304,380,456,532,608,684,760,836,912,988,1064,1140,1216,1292,1368,1444,1520,1596,1672,1748,1824,1900,1976,2052,2128,2204,2280,2356,2432],\"y\":[89.1987897208098,87.34713931659607,85.6949548346263,84.18610253133676,82.78687775863774,81.47512766063552,80.23535077111777,79.05618799352024,77.92901539687902,76.84709891897941,75.80505859221819,74.79851394385801,73.82384079294806,72.87799938871768,71.95840983352439,71.0628597786108,70.18943471286634,69.33646442273873,68.50248125528555,67.68618714713445,66.88642726560488,66.10216870763375,65.33248311679345,64.57653237062412,63.83355669934776,63.102864748629386,62.383825210569285,61.675859730159885,60.978436856990754,60.291066859593066]},{\"line\":{\"dash\":\"dash\",\"color\":\"8BC0F9\"},\"mode\":\"lines\",\"name\":\"Fleet-1-EoL\",\"type\":\"scatter\",\"x\":[228,304,380,456,532,608,684,760,836,912,988,1064,1140,1216,1292,1368,1444,1520,1596,1672,1748,1824,1900,1976,2052,2128,2204,2280,2356,2432],\"y\":[95.51882918215038,94.75062251440241,94.06516961653863,93.43918190449742,92.85867610403992,92.31446151071755,91.80010692689328,91.3108997277107,90.84326204487809,90.39440007267345,89.9620817877215,89.54448983381016,89.14012062259185,88.74771303220201,88.36619672313886,87.99465384338083,87.63229010681576,87.27841258070401,86.93241236998973,86.59375093838362,86.26194917267762,85.93657854542487,85.61725390314491,85.30362752833096,84.99538421018075,84.69223712186738,84.39392434843283,84.10020594384184,83.81086142168515,83.52568760377159]}],\r\n                        {\"height\": 490, \"paper_bgcolor\": \"rgba(0,0,0,0)\", \"plot_bgcolor\": \"rgba(0,0,0,0)\", \"template\": {\"data\": {\"bar\": [{\"error_x\": {\"color\": \"#2a3f5f\"}, \"error_y\": {\"color\": \"#2a3f5f\"}, \"marker\": {\"line\": {\"color\": \"#E5ECF6\", \"width\": 0.5}}, \"type\": \"bar\"}], \"barpolar\": [{\"marker\": {\"line\": {\"color\": \"#E5ECF6\", \"width\": 0.5}}, \"type\": \"barpolar\"}], \"carpet\": [{\"aaxis\": {\"endlinecolor\": \"#2a3f5f\", \"gridcolor\": \"white\", \"linecolor\": \"white\", \"minorgridcolor\": \"white\", \"startlinecolor\": \"#2a3f5f\"}, \"baxis\": {\"endlinecolor\": \"#2a3f5f\", \"gridcolor\": \"white\", \"linecolor\": \"white\", \"minorgridcolor\": \"white\", \"startlinecolor\": \"#2a3f5f\"}, \"type\": \"carpet\"}], \"choropleth\": [{\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}, \"type\": \"choropleth\"}], \"contour\": [{\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}, \"colorscale\": [[0.0, \"#0d0887\"], [0.1111111111111111, \"#46039f\"], [0.2222222222222222, \"#7201a8\"], [0.3333333333333333, \"#9c179e\"], [0.4444444444444444, \"#bd3786\"], [0.5555555555555556, \"#d8576b\"], [0.6666666666666666, \"#ed7953\"], [0.7777777777777778, \"#fb9f3a\"], [0.8888888888888888, \"#fdca26\"], [1.0, \"#f0f921\"]], \"type\": \"contour\"}], \"contourcarpet\": [{\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}, \"type\": \"contourcarpet\"}], \"heatmap\": [{\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}, \"colorscale\": [[0.0, \"#0d0887\"], [0.1111111111111111, \"#46039f\"], [0.2222222222222222, \"#7201a8\"], [0.3333333333333333, \"#9c179e\"], [0.4444444444444444, \"#bd3786\"], [0.5555555555555556, \"#d8576b\"], [0.6666666666666666, \"#ed7953\"], [0.7777777777777778, \"#fb9f3a\"], [0.8888888888888888, \"#fdca26\"], [1.0, \"#f0f921\"]], \"type\": \"heatmap\"}], \"heatmapgl\": [{\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}, \"colorscale\": [[0.0, \"#0d0887\"], [0.1111111111111111, \"#46039f\"], [0.2222222222222222, \"#7201a8\"], [0.3333333333333333, \"#9c179e\"], [0.4444444444444444, \"#bd3786\"], [0.5555555555555556, \"#d8576b\"], [0.6666666666666666, \"#ed7953\"], [0.7777777777777778, \"#fb9f3a\"], [0.8888888888888888, \"#fdca26\"], [1.0, \"#f0f921\"]], \"type\": \"heatmapgl\"}], \"histogram\": [{\"marker\": {\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}}, \"type\": \"histogram\"}], \"histogram2d\": [{\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}, \"colorscale\": [[0.0, \"#0d0887\"], [0.1111111111111111, \"#46039f\"], [0.2222222222222222, \"#7201a8\"], [0.3333333333333333, \"#9c179e\"], [0.4444444444444444, \"#bd3786\"], [0.5555555555555556, \"#d8576b\"], [0.6666666666666666, \"#ed7953\"], [0.7777777777777778, \"#fb9f3a\"], [0.8888888888888888, \"#fdca26\"], [1.0, \"#f0f921\"]], \"type\": \"histogram2d\"}], \"histogram2dcontour\": [{\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}, \"colorscale\": [[0.0, \"#0d0887\"], [0.1111111111111111, \"#46039f\"], [0.2222222222222222, \"#7201a8\"], [0.3333333333333333, \"#9c179e\"], [0.4444444444444444, \"#bd3786\"], [0.5555555555555556, \"#d8576b\"], [0.6666666666666666, \"#ed7953\"], [0.7777777777777778, \"#fb9f3a\"], [0.8888888888888888, \"#fdca26\"], [1.0, \"#f0f921\"]], \"type\": \"histogram2dcontour\"}], \"mesh3d\": [{\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}, \"type\": \"mesh3d\"}], \"parcoords\": [{\"line\": {\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}}, \"type\": \"parcoords\"}], \"pie\": [{\"automargin\": true, \"type\": \"pie\"}], \"scatter\": [{\"marker\": {\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}}, \"type\": \"scatter\"}], \"scatter3d\": [{\"line\": {\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}}, \"marker\": {\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}}, \"type\": \"scatter3d\"}], \"scattercarpet\": [{\"marker\": {\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}}, \"type\": \"scattercarpet\"}], \"scattergeo\": [{\"marker\": {\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}}, \"type\": \"scattergeo\"}], \"scattergl\": [{\"marker\": {\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}}, \"type\": \"scattergl\"}], \"scattermapbox\": [{\"marker\": {\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}}, \"type\": \"scattermapbox\"}], \"scatterpolar\": [{\"marker\": {\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}}, \"type\": \"scatterpolar\"}], \"scatterpolargl\": [{\"marker\": {\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}}, \"type\": \"scatterpolargl\"}], \"scatterternary\": [{\"marker\": {\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}}, \"type\": \"scatterternary\"}], \"surface\": [{\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}, \"colorscale\": [[0.0, \"#0d0887\"], [0.1111111111111111, \"#46039f\"], [0.2222222222222222, \"#7201a8\"], [0.3333333333333333, \"#9c179e\"], [0.4444444444444444, \"#bd3786\"], [0.5555555555555556, \"#d8576b\"], [0.6666666666666666, \"#ed7953\"], [0.7777777777777778, \"#fb9f3a\"], [0.8888888888888888, \"#fdca26\"], [1.0, \"#f0f921\"]], \"type\": \"surface\"}], \"table\": [{\"cells\": {\"fill\": {\"color\": \"#EBF0F8\"}, \"line\": {\"color\": \"white\"}}, \"header\": {\"fill\": {\"color\": \"#C8D4E3\"}, \"line\": {\"color\": \"white\"}}, \"type\": \"table\"}]}, \"layout\": {\"annotationdefaults\": {\"arrowcolor\": \"#2a3f5f\", \"arrowhead\": 0, \"arrowwidth\": 1}, \"coloraxis\": {\"colorbar\": {\"outlinewidth\": 0, \"ticks\": \"\"}}, \"colorscale\": {\"diverging\": [[0, \"#8e0152\"], [0.1, \"#c51b7d\"], [0.2, \"#de77ae\"], [0.3, \"#f1b6da\"], [0.4, \"#fde0ef\"], [0.5, \"#f7f7f7\"], [0.6, \"#e6f5d0\"], [0.7, \"#b8e186\"], [0.8, \"#7fbc41\"], [0.9, \"#4d9221\"], [1, \"#276419\"]], \"sequential\": [[0.0, \"#0d0887\"], [0.1111111111111111, \"#46039f\"], [0.2222222222222222, \"#7201a8\"], [0.3333333333333333, \"#9c179e\"], [0.4444444444444444, \"#bd3786\"], [0.5555555555555556, \"#d8576b\"], [0.6666666666666666, \"#ed7953\"], [0.7777777777777778, \"#fb9f3a\"], [0.8888888888888888, \"#fdca26\"], [1.0, \"#f0f921\"]], \"sequentialminus\": [[0.0, \"#0d0887\"], [0.1111111111111111, \"#46039f\"], [0.2222222222222222, \"#7201a8\"], [0.3333333333333333, \"#9c179e\"], [0.4444444444444444, \"#bd3786\"], [0.5555555555555556, \"#d8576b\"], [0.6666666666666666, \"#ed7953\"], [0.7777777777777778, \"#fb9f3a\"], [0.8888888888888888, \"#fdca26\"], [1.0, \"#f0f921\"]]}, \"colorway\": [\"#636efa\", \"#EF553B\", \"#00cc96\", \"#ab63fa\", \"#FFA15A\", \"#19d3f3\", \"#FF6692\", \"#B6E880\", \"#FF97FF\", \"#FECB52\"], \"font\": {\"color\": \"#2a3f5f\"}, \"geo\": {\"bgcolor\": \"white\", \"lakecolor\": \"white\", \"landcolor\": \"#E5ECF6\", \"showlakes\": true, \"showland\": true, \"subunitcolor\": \"white\"}, \"hoverlabel\": {\"align\": \"left\"}, \"hovermode\": \"closest\", \"mapbox\": {\"style\": \"light\"}, \"paper_bgcolor\": \"white\", \"plot_bgcolor\": \"#E5ECF6\", \"polar\": {\"angularaxis\": {\"gridcolor\": \"white\", \"linecolor\": \"white\", \"ticks\": \"\"}, \"bgcolor\": \"#E5ECF6\", \"radialaxis\": {\"gridcolor\": \"white\", \"linecolor\": \"white\", \"ticks\": \"\"}}, \"scene\": {\"xaxis\": {\"backgroundcolor\": \"#E5ECF6\", \"gridcolor\": \"white\", \"gridwidth\": 2, \"linecolor\": \"white\", \"showbackground\": true, \"ticks\": \"\", \"zerolinecolor\": \"white\"}, \"yaxis\": {\"backgroundcolor\": \"#E5ECF6\", \"gridcolor\": \"white\", \"gridwidth\": 2, \"linecolor\": \"white\", \"showbackground\": true, \"ticks\": \"\", \"zerolinecolor\": \"white\"}, \"zaxis\": {\"backgroundcolor\": \"#E5ECF6\", \"gridcolor\": \"white\", \"gridwidth\": 2, \"linecolor\": \"white\", \"showbackground\": true, \"ticks\": \"\", \"zerolinecolor\": \"white\"}}, \"shapedefaults\": {\"line\": {\"color\": \"#2a3f5f\"}}, \"ternary\": {\"aaxis\": {\"gridcolor\": \"white\", \"linecolor\": \"white\", \"ticks\": \"\"}, \"baxis\": {\"gridcolor\": \"white\", \"linecolor\": \"white\", \"ticks\": \"\"}, \"bgcolor\": \"#E5ECF6\", \"caxis\": {\"gridcolor\": \"white\", \"linecolor\": \"white\", \"ticks\": \"\"}}, \"title\": {\"x\": 0.05}, \"xaxis\": {\"automargin\": true, \"gridcolor\": \"white\", \"linecolor\": \"white\", \"ticks\": \"\", \"title\": {\"standoff\": 15}, \"zerolinecolor\": \"white\", \"zerolinewidth\": 2}, \"yaxis\": {\"automargin\": true, \"gridcolor\": \"white\", \"linecolor\": \"white\", \"ticks\": \"\", \"title\": {\"standoff\": 15}, \"zerolinecolor\": \"white\", \"zerolinewidth\": 2}}}, \"title\": {\"text\": \"Aging: EOL Prediction at Different Fleet Conditions\"}, \"width\": 890, \"xaxis\": {\"gridcolor\": \"rgb(159, 197, 232)\", \"range\": [0, 2600], \"showgrid\": true, \"title\": {\"text\": \"Equivalent Number of Cycles\"}}, \"yaxis\": {\"gridcolor\": \"rgb(159, 197, 232)\", \"range\": [78, 100], \"showgrid\": true, \"title\": {\"text\": \"Percentage Capacity Lost\"}}},\r\n                        {\"responsive\": true}\r\n                    )\r\n                };\r\n                \r\n            </script>\r\n        </div>\r\n</body>\r\n</html>",
+                    "markdownText": "[Global View of Assets](https://app.altergo.io/live-map)"
+                },
+                "programOutput": {
+                    "program": "",
+                    "function": "",
+                    "fileName": "",
+                    "file": ""
+                }
+            }
+        },
+        {
+            "_id": "643fa645f526971202b9fb5f",
+            "name": "Remaining Cycles",
+            "description": "",
+            "version": "v2",
+            "properties": {
+                "height": 3,
+                "width": 5,
+                "x": 7,
+                "y": 5
+            },
+            "company": {
+                "_id": "640705613364e1166f931f8d",
+                "name": null,
+                "isEnabled": null,
+                "website": null,
+                "type": null,
+                "contact": null,
+                "createdAt": null,
+                "updatedAt": null
+            },
+            "createdAt": "2023-04-19T08:28:53.499000+00:00",
+            "updatedAt": "2023-04-19T10:32:38.357000+00:00",
+            "template": {
+                "title": "Example",
+                "description": "No description provided",
+                "backgroundColor": "#FFFFFF",
+                "type": "textbox",
+                "dataSource": [],
+                "trace": [],
+                "layout": {
+                    "graph": {
+                        "chart": {
+                            "axisMode": ""
+                        },
+                        "font": {
+                            "family": "",
+                            "sizer": "12"
+                        },
+                        "autosize": true,
+                        "title": {
+                            "text": "",
+                            "font": {
+                                "family": "",
+                                "size": "12",
+                                "color": "#3A9619"
+                            },
+                            "x": "0.1"
+                        },
+                        "margin": {
+                            "t": "0",
+                            "b": "30",
+                            "l": "35",
+                            "r": "15",
+                            "pad": "4"
+                        },
+                        "barmode": "",
+                        "barnorm": "",
+                        "bargap": "",
+                        "bargroupgap": "",
+                        "showlegend": false,
+                        "legend": {
+                            "orientation": "v",
+                            "title": {
+                                "text": "",
+                                "font": {
+                                    "family": "",
+                                    "size": "12",
+                                    "color": "#464457"
+                                }
+                            },
+                            "font": {
+                                "family": "",
+                                "size": "12",
+                                "color": "#3F403F"
+                            },
+                            "borderwidth": "1",
+                            "bordercolor": "#444444",
+                            "bgcolor": "#FFFFFF",
+                            "xanchor": "auto",
+                            "x": "1",
+                            "yanchor": "auto",
+                            "y": "0.95",
+                            "valign": "top"
+                        },
+                        "other": {
+                            "alertAnnotations": "disable"
+                        }
+                    },
+                    "url": "",
+                    "markdownText": "<style>\ntable, th, td {\n  border: 0.2px solid black;\n  border-collapse: collapse;\n}\nth {\n  text-align: center;\n}\nh3 {\n  font-size: 19px;\n  color: black\n}\nbody {\n  font-size: 16px;\n  color: rgb(93, 120, 255);\n}\n</style>\n\n<table style=\"width: 100%; height:100%\">\n<tbody>\n<tr>\n<th><h4>Parameter</h4></th>\n<th><h4>Fleet 1</h4></th>\n<th><h4>Fleet 2</h4></th>\n<th><h4>Fleet 3</h4></th>\n<th><h4>Fleet 4</h4></th>\n\n</tr>\n<tr>\n<th>Remaining Cycles :&nbsp End of life (SoH @80%)</th>\n<th>2200</th>\n<th>522</th>\n<th>1130</th>\n<th>2000</th>\n</tr>\n</tbody>\n</table>"
+                },
+                "programOutput": {
+                    "program": "",
+                    "function": "",
+                    "fileName": "",
+                    "file": ""
+                }
+            }
+        }
+    ],
+    "name": "Fleet Aging Analysis",
+    "accessibility": "COMPANY",
+    "iconProperties": {
+        "iconClass": "la la-line-chart",
+        "iconColor": "info"
+    },
+    "isTemplate": false,
+    "isGeneral": true,
+    "createdAt": "2023-03-24T13:58:29.172000+00:00",
+    "updatedAt": "2023-04-19T08:28:53.505000+00:00",
+    "blueprint": null,
+    "asset": null
+}
